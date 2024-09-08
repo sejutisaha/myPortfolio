@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Sejuti Saha Peu</h1>
+        
+        <div class="contact-info">
+            <p>Email: <a href="mailto:sejuti67saha@gmail.com">gmail.com</a></p>
+            <p>Phone: 01863317758</p>
+        </div>
+    
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#research">Research Work</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#references">References</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="profile.jpg" alt="Your Photo" style="width:200px;height:200px;border-radius:50%;">
+        <p>As a Computer Science graduate, I aim to inspire and educate university students by fostering a dynamic
+            learning environment. I am committed to integrating cutting-edge research and practical applications into
+            my teaching. I want to help students develop critical thinking and problem-solving skills through research-
+            based instruction that prepares them for success in their academic and professional pursuits.</p>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <div class="education-item">
+            <h3>Bachelor of Computer Science and Engineering</h3>
+            <p><strong>University of Chittagong</strong> - 2023</p>
+            <p>Description of your coursework or any notable achievements.</p>
+        </div>
+        <!-- Add more education entries here -->
+    </section>
+    <section id="research">
+        <h2>Research Work</h2>
+        <div class="research-item">
+            <h3>Named Entity Recognition (NER) Using Machine Learning and Deep Learning</h3>
+        
+            <p>
+                <strong>Functionality:</strong> To analyze facts of accidental news in Bangla using deep learning techniques through named entity recognition and semantic annotation.<br>
+                <strong>Tools:</strong> Python, TensorFlow, Keras
+            </p>
+        </div>
+        
+        <!-- Add more research entries here -->
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Telemedical: Real-time Hospital Management</h3>
+            <!--  <img src="project1.jpg" alt="Project 1 Image" style="width:300px;height:auto;">  --> 
+            <p>It was a team project. I worked in a team of four people and developed this application. This project
+                provides the health services of a medical center to the users.</p>
+        </div>
+        <div class="project">
+            <h3>SchoolHub: Parent-Teacher Portal</h3>
+            <!-- <img src="project2.jpg" alt="Project 2 Image" style="width:300px;height:auto;"-->
+            <p>This project is part of our Mobile App Development Lab. It was a team project. I worked in a team
+                of four people and developed this mobile application. This is a school management app. This project
+                gives us all the information about the school. Users can log in, can see attendance, also can view the
+                routine, marks, and all type of information.</p>
+        </div>
+        <!-- Add more projects here -->
+    </section>
+    <footer>
+        
+        <section id="references">
+            <h2>References</h2>
+            <div class="references-container">
+                <div class="reference-item">
+                    <h3>Dr. Rashed Mustafa</h3>
+                    <p>
+                        Dean, Faculty of Engineering<br>
+                        Professor, Department of Computer Science and Engineering<br>
+                        University of Chittagong<br>
+                        Phone: +8801819646333<br>
+                        Email: <a href="mailto:rashed.m@cu.ac.bd">rashed.m@cu.ac.bd</a>
+                    </p>
+                </div>
+                <div class="reference-item">
+                    <h3>Md. Hanif Seddiqui</h3>
+                    <p>
+                        Professor, Department of Computer Science and Engineering<br>
+                        University of Chittagong<br>
+                        Phone: +8801933236173<br>
+                        Email: <a href="mailto:hanif@cu.ac.bd">hanif@cu.ac.bd</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+        
+    </footer>
+
+    <script>
+    document.querySelectorAll('nav a').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+</script>
+
+</body>
+</html>

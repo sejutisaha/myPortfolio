@@ -1,0 +1,216 @@
+/* Changing background color for the whole page */
+body {
+    background-color: #f0f0f0; /* Light gray background */
+    color: #333; /* Dark gray text */
+    font-family: Arial, sans-serif; /* Set the font style */
+}
+
+/* Changing header background and text color */
+/* Style for the header */
+header {
+    background-color: #4CAF50; /* Background color of the header */
+    color: white; /* Text color */
+    text-align: left; /* Center the text */
+    padding: 10px 10px; /* Reduce the padding around the header content */
+    margin: 0; /* Remove any margin around the header */
+}
+
+/* Style for the header title (name) */
+header h1 {
+    margin: 0; /* Remove default margin around the heading */
+    font-size: 24px; /* Adjust font size as needed */
+}
+
+/* Style for the header subtitle (welcome text) */
+header p {
+    margin: 5px 0 0; /* Reduce space above and below the paragraph */
+    font-size: 16px; /* Adjust font size as needed */
+}
+
+
+/* Styling the footer */
+footer {
+    background-color: #333; /* Dark gray background for footer */
+    color: white; /* White text in the footer */
+    text-align: center; /* Center the footer text */
+    padding: 10px; /* Add some padding in the footer */
+}
+/* Style for the projects section */
+#projects {
+    padding: 20px;
+    background-color: #ffffff; /* White background for projects section */
+}
+
+.project {
+    margin-bottom: 20px;
+    border: 1px solid #ddd; /* Light border around each project */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.project img {
+    max-width: 100%; /* Make sure the image is responsive */
+    height: auto;
+    border-radius: 5px;
+}
+
+.project h3 {
+    color: #4CAF50; /* Green color for project titles */
+}
+/* Style for the references section */
+#references {
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background color */
+}
+
+.references-container {
+    display: flex;
+    justify-content: space-between; /* Space out items evenly */
+    gap: 20px; /* Space between items */
+}
+
+.reference-item {
+    flex: 1; /* Make items take up equal space */
+    border: 1px solid #ddd; /* Light border around each reference */
+    padding: 2px;
+    border-radius: 5px;
+    background-color: #ffffff; /* Background color for each item */
+}
+
+.reference-item h3 {
+    margin-top: 0; /* Remove top margin for headers */
+    color: #4CAF50; /* Green color for reference names */
+}
+
+.reference-item a {
+    color: #4CAF50; /* Link color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.reference-item a:hover {
+    text-decoration: underline; /* Underline link on hover */
+}
+footer {
+    background-color: #793d4f; /* Dark background color */
+    color: #fff; /* White text color */
+    padding: 2px; /* Padding around footer */
+    text-align: center; /* Center-align text */
+  
+    bottom: 0;
+    width: 100%; /* Full width */
+}
+
+footer h2 {
+    margin: 0; /* Remove default margin */
+    padding-bottom: 2px; /* Space below the heading */
+}
+
+.references-container {
+    display: flex; /* Use flexbox to display items side by side */
+    justify-content: space-between; /* Space between items */
+    flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+    gap: 20px; /* Space between items */
+}
+
+.reference-item {
+    flex: 1; /* Allow items to grow and shrink */
+    min-width: 200px; /* Set a minimum width for each reference item */
+    padding: 2px; /* Padding around each reference item */
+    background-color: #444; /* Slightly lighter background for reference items */
+    border-radius: 5px; /* Rounded corners for reference items */
+}
+
+/* Style for the navigation bar */
+nav {
+    background-color: #4CAF50; /* Same color as the header */
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style for the unordered list in the nav */
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Style for the list items */
+nav ul li {
+    display: inline; /* Display list items in a row */
+    margin-right: 15px; /* Space between the menu items */
+}
+
+/* Style for the links */
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #45a049; /* Change background color on hover */
+}
+
+
+
+/* Style the navigation bar */
+nav ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+    text-align: center; /* Center the buttons */
+}
+
+nav ul li {
+    display: inline-block; /* Display items horizontally */
+    margin: 0 10px; /* Add space between buttons */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* White text color */
+    background-color: #4CAF50; /* Green background */
+    padding: 10px 20px; /* Padding inside the button */
+    border-radius: 25px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Change background color on hover */
+nav ul li a:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Additional colors for different buttons */
+nav ul li:nth-child(1) a { background-color: #53a8ee; } /* Red button */
+nav ul li:nth-child(2) a { background-color: #53a8ee; } /* Blue button */
+nav ul li:nth-child(3) a { background-color: #53a8ee; } /* Orange button */
+nav ul li:nth-child(4) a { background-color: #53a8ee; } /* Purple button */
+nav ul li:nth-child(5) a { background-color: #53a8ee; } /* Teal button */
+
+/* Hover colors for each button */
+nav ul li:nth-child(1) a:hover { background-color: #d32f2f; } /* Darker red */
+nav ul li:nth-child(2) a:hover { background-color: #1976D2; } /* Darker blue */
+nav ul li:nth-child(3) a:hover { background-color: #FB8C00; } /* Darker orange */
+nav ul li:nth-child(4) a:hover { background-color: #7B1FA2; } /* Darker purple */
+nav ul li:nth-child(5) a:hover { background-color: #00796B; } /* Darker teal */
+
+#home {
+    padding: 40px;
+    background-color: #f0f0f0; /* Light gray background */
+    text-align: center;
+}
+
+#home h2 {
+    font-size: 32px;
+    color: #333;
+}
+
+#home p {
+    font-size: 18px;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+}
